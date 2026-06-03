@@ -17,6 +17,14 @@ Documentation:
 	it does not work with small files well. But once in a blue moon it can match or get a smaller
 	size than the binary file being encoded, and that counts for something :3
 
+Elaborate explanation:
+	We get any heckin' file, we read it as raw data, and then convert into big ass strings,
+	that ultimately fit 32bit strings of binary in them, counted from 1 to something like 2^32.
+	so yeah, this kind of sucks. So that's why another script gets the most common LONG string and
+	assigns letters to it. It's not very efficient in smaller files, I know, boo-hoo. Oh well.
+	Anyways, so we got that, then we run it through another encoder that detects common number pairs
+	on the PROCESSED data, and we get something that is "kinda" human friendly??? >w>
+
 Question:
 	What does it do though?
 Answer:
