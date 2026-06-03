@@ -21,3 +21,8 @@ Question:
 	What does it do though?
 Answer:
 	He's doing his best :3
+
+Question:
+	Do you know how the code actually works?
+Answer:
+	Barely. Use at own risk
